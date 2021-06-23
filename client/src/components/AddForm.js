@@ -14,32 +14,9 @@ const AddForm = ({addBookingToState}) => {
         }
         addBooking(newBooking);
         addBookingToState(newBooking);
-        
-
-
-
-
-        // bookingCards.push(
-        //     <div key={booking._id}>
-        //         <h4>Name: {booking.name}</h4>
-        //         <h4>Email: {booking.email}</h4>
-        //         {checkInStatus(booking)}
-        //         <button>Edit</button>
-        //         <button onClick={handleDelete} value={booking._id}>Delete</button>
-        //     </div>
-        // )
-
 
         event.preventDefault()
     }
-    //     let newBookingName = event.name.value
-
-
-       
-
-    // }
-
-
 
     return (
         <>
